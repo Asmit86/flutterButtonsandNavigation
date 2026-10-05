@@ -1,17 +1,53 @@
 # homeworks
 
-A new Flutter project.
+# Flutter Buttons & Navigation
 
-## Getting Started
+A Flutter project demonstrating different Material buttons, button styling, dialogs, and basic navigation between screens.
 
-This project is a starting point for a Flutter application.
+## Buttons Implemented
 
-A few resources to get you started if this is your first Flutter project:
+- ElevatedButton.icon
+- FilledButton.icon
+- OutlinedButton
+- TextButton
+- FloatingActionButton
 
-- [Learn Flutter](https://docs.flutter.dev/get-started/learn-flutter)
-- [Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Flutter learning resources](https://docs.flutter.dev/reference/learning-resources)
+## Navigation
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+The project demonstrates:
+
+- `Navigator.push()`
+- `Navigator.pop()`
+- `Navigator.pushReplacement()`
+- Navigation stack
+- Navigation between multiple screens
+
+## Dialog
+
+An `AlertDialog` is used to display messages when buttons are pressed.
+
+## Screens
+
+### ButtonGallery
+
+The main screen containing the initial buttons.
+
+### SecondScreen
+
+A second screen demonstrating navigation using `Navigator`.
+
+### MoreButtons
+
+A separate screen containing additional buttons.
+
+## Technologies
+
+- Flutter
+- Dart
+- Android Studio
+
+## Project Structure
+
+```text
+lib/
+└── main.dart
